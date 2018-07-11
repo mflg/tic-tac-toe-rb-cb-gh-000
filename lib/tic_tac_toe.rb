@@ -81,7 +81,7 @@ end
 # Define your play method below
 
 def play(board)
-  while !over?(board) 
+  while !over?(board)
     turn(board)
   end
 end

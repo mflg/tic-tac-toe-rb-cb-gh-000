@@ -11,8 +11,6 @@ WIN_COMBINATIONS = [
   # ETC, an array for each win combination
 ]
 
-
-
 def won?(board)
   WIN_COMBINATIONS.detect do |arr_comb|
 	board[arr_comb[0]]!=" " && board[arr_comb[0]]==board[arr_comb[1]] && board[arr_comb[0]]==board[arr_comb[2]]

@@ -9,5 +9,4 @@ display_board(board)
 
 while !over?(board)
   play(board)
-
 end

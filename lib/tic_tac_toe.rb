@@ -33,7 +33,6 @@ end
 
 def winner (board)
   winner_combination = won?(board)
-  puts winner_combination
   if winner_combination!= nil
 	board[winner_combination[0]]
   end

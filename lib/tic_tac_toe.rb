@@ -67,7 +67,7 @@ def valid_move?(board, index)
 end
 
 def turn_count(board)
-  board.select{i<>" "}.length
+  board.select{|i| i<>" "}.length
 end
 
 def turn(board)

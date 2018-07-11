@@ -67,8 +67,10 @@ def valid_move?(board, index)
 end
 
 def turn_count(board)
-  board.select{|i| i<>" "}.length
+  board.select{|i| i!=" "}.length
 end
+
+
 
 def turn(board)
   puts "Please enter 1-9:"
